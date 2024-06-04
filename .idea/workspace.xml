@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="723f5abd-6fee-407f-9b6b-6f62ed8f496e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/JavaSpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSpring2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/principal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/principal/StreamsELambdas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosSerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosSerie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/service/ConsumoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/service/ConsumoApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -31,12 +33,12 @@
     &quot;assignee&quot;: &quot;isadoragil&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/isadoragil/JavaSpring.git&quot;,
-    &quot;accountId&quot;: &quot;9c65e460-c025-4d36-89b2-836f07bbc750&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/isadoragil/JavaSpring2.git",
+    "accountId": "9c65e460-c025-4d36-89b2-836f07bbc750"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,43 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ScreenmatchApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamsELambdas.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ScreenmatchApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/isadora.souza/Downloads/Alura/carroAPI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ScreenmatchApplication.executor": "Run",
+    "Application.StreamsELambdas.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ScreenmatchApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/isadora.souza/Downloads/Alura/carroAPI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.screenmatch.model" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="JavaSpring2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="JavaSpring2" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScreenmatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="screenmatch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.alura.screenmatch.ScreenmatchApplication" />

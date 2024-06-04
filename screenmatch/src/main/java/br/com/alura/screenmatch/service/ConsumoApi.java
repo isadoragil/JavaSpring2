@@ -16,6 +16,7 @@ public class ConsumoApi {
         try {
             response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
+            System.out.println(endereco);
         } catch (IOException | InterruptedException e) {
             throw new RuntimeException(e);
         }
