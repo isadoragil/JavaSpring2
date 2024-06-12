@@ -41,9 +41,14 @@
 		</dependency>
 
 		<dependency>
-			<groupId>net.clojars.suuft</groupId>
-			<artifactId>libretranslate-java</artifactId>
-			<version>1.0.5</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
