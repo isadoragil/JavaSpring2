@@ -21,7 +21,8 @@ public class Serie {
     private String atores;
     private String poster;
     private String sinopse;
-    @Transient //deixar de lado o atributo no bd @Transient
+    //@Transient //deixar de lado o atributo no bd @Transient
+    @OneToMany(mappedBy = "serie")
     private List<Episodio> episodios = new ArrayList<>();
 
     public Serie() {}
