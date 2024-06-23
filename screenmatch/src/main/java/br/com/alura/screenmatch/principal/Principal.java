@@ -92,6 +92,8 @@ public class Principal {
                 temporadas.add(dadosTemporada);
             }
             temporadas.forEach(System.out::println);
+        } else {
+            System.out.println("Série não encontrada!");
         }
     }
     private void listarSeriesBuscadas() {
