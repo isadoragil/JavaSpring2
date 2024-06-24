@@ -12,7 +12,7 @@ public class Serie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @Column(unique = true)
+    @Column(unique = true, name = "titulo")
     private String titulo;
     private Integer totalTemporadas;
     private Double avaliacao;
@@ -22,7 +22,7 @@ public class Serie {
     private String poster;
     private String sinopse;
     //@Transient //deixar de lado o atributo no bd @Transient
-    @OneToMany(mappedBy = "serie")
+    @OneToMany(mappedBy = "serie", cascade = CascadeType.ALL)
     private List<Episodio> episodios = new ArrayList<>();
 
     public Serie() {}
