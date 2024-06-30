@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="723f5abd-6fee-407f-9b6b-6f62ed8f496e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/principal/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/repository/SerieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/repository/SerieRepository.java" afterDir="false" />
     </list>
@@ -60,6 +61,7 @@
     "Application.ScreenmatchApplication.executor": "Run",
     "Application.SpringApplication.executor": "Run",
     "Application.StreamsELambdas.executor": "Run",
+    "Application.programa.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -110,6 +112,8 @@
       <workItem from="1719158005725" duration="274000" />
       <workItem from="1719158363624" duration="171000" />
       <workItem from="1719161743700" duration="1530000" />
+      <workItem from="1719525660170" duration="1276000" />
+      <workItem from="1719777743364" duration="122000" />
     </task>
     <servers />
   </component>
